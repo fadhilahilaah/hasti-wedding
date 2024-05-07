@@ -16,8 +16,15 @@
     <!-- SimplyCountdown -->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
+    <!-- Hero Section Start -->
     <section
       id="hero"
       class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
@@ -31,6 +38,198 @@
         <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
       </main>
     </section>
+    <!-- Hero Section End -->
+
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top my-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Hasti</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hasti</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Home Section Start -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Perikahan</h2>
+            <h3>Diselenggarakan pada 7 Juli 2027 di Bogor, Jawa Barat.</h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Hasbi Auzan F. A.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis, sit nesciunt. Modi impedit saepe deleniti.
+                </p>
+                <p>
+                  Putra dari Bpk. Ir. Agus Bambang Haryono <br />
+                  dan <br />
+                  Ibu Meliawati
+                </p>
+              </div>
+
+              <div class="col-4">
+                <img
+                  src="img/men.jpg"
+                  alt="Hasbi Auzan F. A."
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/women.jpg"
+                  alt="Nur Afiifah Yudanti"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Nur Afiifah Yudanti</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis, sit nesciunt. Modi impedit saepe deleniti.
+                </p>
+                <p>
+                  Putra dari Bpk. Hamdan <br />
+                  dan <br />
+                  Ibu Yulianti
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Info section Start -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Gedung Braja Mustika, <br />
+              Jl. DR. Sumeru, RT.01/RW.10, Menteng, Kec. Bogor Barat, Kota
+              Bogor, Jawa Barat 16111
+            </p>
+            <a
+              href="https://maps.app.goo.gl/RkytRN5wqEmtjHkw9"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka peta</a
+            >
+            <p class="description">
+              Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
+              tujuan namun tidak ada tanda-tanda dilangsungkan pernikahan, boleh
+              jadi Anda salah jadwal, atau salah tempat.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3-week d-block"></i>
+                    <span>Sabtu, 7 Juli 2027</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3-week d-block"></i>
+                    <span>Sabtu, 7 Juli 2027</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Info section End -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -42,14 +241,14 @@
       simplyCountdown(".simply-countdown", {
         year: 2027, // required
         month: 7, // required
-        day: 2, // required
+        day: 7, // required
         hours: 8, // Default is 0 [0-23] integer
         words: {
           //words displayed into the countdown
-          days: { singular: "hari", plural: "hari" },
-          hours: { singular: "jam", plural: "jam" },
-          minutes: { singular: "menit", plural: "menit" },
-          seconds: { singular: "detik", plural: "detik" },
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
         },
       });
     </script>
