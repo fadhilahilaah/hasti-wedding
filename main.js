@@ -2,7 +2,7 @@ const hamburger = document.querySelector(".navbar-toggler");
 const stickyTop = document.querySelector(".sticky-top");
 const offCanvas = document.querySelector(".offcanvas");
 
-offCanvas.addEventListener("show.bs.offcanvas", function () {
+hamburger.addEventListener("click", function () {
   stickyTop.style.overflow = "visible";
 });
 
